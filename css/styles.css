@@ -1,0 +1,220 @@
+:root {
+  --accent-color: #2196f3;
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --title-text-color: #ffffff;
+}
+
+.common-lists {
+  list-style: none;
+}
+.common-links {
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+/* === Header page === */
+/* === Navigation === */
+/* === Header logo === */
+.header-logo-link {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.header-logo-web {
+  color: var(--accent-color);
+}
+/* === End header logo === */
+
+/* === Menu === */
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.menu-link:hover {
+  color: var(--accent-color);
+}
+.menu-link:focus {
+  color: var(--accent-color);
+}
+/* === End menu === */
+/* === End Navigation === */
+
+/* === Header contacts === */
+
+.header-mail-link,
+.header-tel-link {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: var(--accent-color);
+}
+
+/* === End header contacts === */
+/* === End header page === */
+
+/*=== Main content === */
+/* === Hero === */
+.hero {
+  background-color: #2f303a;
+}
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.order-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*=== End hero === */
+
+/*=== Benefits company === */
+.benefits-title {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.benefits-text {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--secondary-color);
+}
+/*=== End benefits company === */
+
+/* === Activities company === */
+.activities-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* === End activities company === */
+
+/* === Team === */
+.team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.name-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.position {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--secondary-color);
+}
+/* === End team === */
+
+/* === Footer === */
+.footer {
+  background-color: #2f303a;
+}
+/* === Footer logo === */
+.footer-logo-link {
+  font-family: var(--secondary-font)
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+.footer-logo-web {
+  color: var(--accent-color);
+}
+/* === End footer logo === */
+
+/* === Address === */
+.address-map-link {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--title-text-color);
+}
+.address-mail-link,
+.address-tel-link {
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* === End address === */
+/* === End footer === */
+
+/* === Portfolio page === */
+/*=== Button-list ===  */
+.button-porfolio {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.button-porfolio:hover,
+.button-porfolio:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
+/*=== End button list ===  */
+
+/* === Projects list === */
+.projects-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-color);
+/* === End projects === */
+/* === End portfolio page === */
